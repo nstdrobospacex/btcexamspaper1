@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Paper-I</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            margin-left: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./header.png" alt="headerImg" />
+    <h1>PAPER I</h1>
+
+    <form>
+        <div class="question">
+            <p>1. Why is learning programming important in today's world?</p>
+            <div class="options">
+                <input type="radio" name="q1"> For academic purposes only<br>
+                <input type="radio" name="q1"> To automate and solve complex problems<br>
+                <input type="radio" name="q1"> Only for software development<br>
+                <input type="radio" name="q1"> For entertainment purposes only<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. What is the main function of a compiler in programming?</p>
+            <div class="options">
+                <input type="radio" name="q2"> To write code<br>
+                <input type="radio" name="q2"> To interpret code<br>
+                <input type="radio" name="q2"> To convert code into machine language<br>
+                <input type="radio" name="q2"> To debug code<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. Which of the following is true about interpreters?</p>
+            <div class="options">
+                <input type="radio" name="q3"> They execute programs faster than compilers<br>
+                <input type="radio" name="q3"> They translate the entire program at once<br>
+                <input type="radio" name="q3"> They translate and execute code line by line<br>
+                <input type="radio" name="q3"> They are not used in modern programming<br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. What will be the output of the following C program?</p>
+            <pre>#include &lt;stdio.h&gt;
+int main() {
+  printf("Hello, World!");
+  return 0;
+}</pre>
+            <div class="options">
+                <input type="radio" name="q4"> Hello, World!<br>
+                <input type="radio" name="q4"> Syntax Error<br>
+                <input type="radio" name="q4"> 0<br>
+                <input type="radio" name="q4"> Nothing<br>
+            </div>
+        </div>
+        </div>
+
+        <!-- PAGE 2 -->
+        <div class="page">
+            <div class="question">
+                <p>5. Which of the following is a valid identifier in C?</p>
+                <div class="options">
+                    <input type="radio" name="q5"> 2ndName<br>
+                    <input type="radio" name="q5"> _name<br>
+                    <input type="radio" name="q5"> #name<br>
+                    <input type="radio" name="q5"> none of these<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>6. Identify the error in this C program:</p>
+                <pre>#include &lt;stdio.h&gt;
+int main() {
+  print("Hello, World!");
+  return 0;
+}</pre>
+                <div class="options">
+                    <input type="radio" name="q6"> Missing #include statement<br>
+                    <input type="radio" name="q6"> Incorrect function name<br>
+                    <input type="radio" name="q6"> Syntax error in return statement<br>
+                    <input type="radio" name="q6"> No error<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>7. What will be the output of the following C code?</p>
+                <pre>int main() {
+char c = 'A';
+printf("%d", c);
+return 0;
+}</pre>
+                <div class="options">
+                    <input type="radio" name="q7"> 65<br>
+                    <input type="radio" name="q7"> A<br>
+                    <input type="radio" name="q7"> Syntax Error<br>
+                    <input type="radio" name="q7"> None of these<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>8. What is the purpose of the printf function in C?</p>
+                <div class="options">
+                    <input type="radio" name="q8"> To read input<br>
+                    <input type="radio" name="q8"> To print output<br>
+                    <input type="radio" name="q8"> To perform calculations<br>
+                    <input type="radio" name="q8"> To control program flow<br>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 3 -->
+        <div class="page">
+            <div class="question">
+                <p>9. What will the following C code output?</p>
+                <pre>int main() {
+  int num;
+  scanf("%d", &num);
+  printf("%d", num);
+  return 0;
+}</pre>
+                <div class="options">
+                    <input type="radio" name="q9"> The Inputted number<br>
+                    <input type="radio" name="q9"> %d<br>
+                    <input type="radio" name="q9"> Syntax Error<br>
+                    <input type="radio" name="q9"> Nothing<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>10. Pseudocode:<br><br>
+                    READ number<br>
+                    PRINT "The number is ", number<br><br>
+                    What does this pseudocode do?</p>
+                <div class="options">
+                    <input type="radio" name="q10"> Reads and prints a number<br>
+                    <input type="radio" name="q10"> Prints a fixed number<br>
+                    <input type="radio" name="q10"> Generates a random number<br>
+                    <input type="radio" name="q10"> None of these<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>11. What does the '==' operator check?</p>
+                <div class="options">
+                    <input type="radio" name="q11"> Assignment<br>
+                    <input type="radio" name="q11"> Equality<br>
+                    <input type="radio" name="q11"> Greater than<br>
+                    <input type="radio" name="q11"> Less than<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>12. What is the result of the logical expression <code>(1 && 0)</code>?</p>
+                <div class="options">
+                    <input type="radio" name="q12"> 1<br>
+                    <input type="radio" name="q12"> 0<br>
+                    <input type="radio" name="q12"> True<br>
+                    <input type="radio" name="q12"> False<br>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 4 -->
+        <div class="page">
+            <div class="question">
+                <p>13. Which operator has higher precedence, '+' or '*'?</p>
+                <div class="options">
+                    <input type="radio" name="q13"> *<br>
+                    <input type="radio" name="q13"> Both are Same<br>
+                    <input type="radio" name="q13"> =+<br>
+                    <input type="radio" name="q13"> None<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>14. What is the result of the following expression?</p>
+                <pre>int a = 1; 
+int b = a++ + ++a;</pre>
+                <div class="options">
+                    <input type="radio" name="q14"> 2<br>
+                    <input type="radio" name="q14"> 3<br>
+                    <input type="radio" name="q14"> 4<br>
+                    <input type="radio" name="q14"> 5<br>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>15. Spot the error:</p>
+                <pre>int main() {
+  int a = 10, b = 0;
+  printf("%d", a / b);
+  return 0;
+}</pre>
+                <div class="options">
+                    <input type="radio" name="q15"> Division by zero<br>
+                    <input type="radio" name="q15"> Syntax Error<br>
+                    <input type="radio" name="q15"> No error<br>
+                    <input type="radio" name="q15"> Wrong format specifier<br>
+                </div>
+            </div>
+
+
+            <div class="page">
+                <div class="question">
+                    <p>16. What is an object in object-oriented programming?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q1"> A code snippet<br>
+                        <input type="radio" name="cpp_q1"> A variable<br>
+                        <input type="radio" name="cpp_q1"> An instance of a class<br>
+                        <input type="radio" name="cpp_q1"> A function<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>17. What is the entry point of a C++ program?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q3"> start()<br>
+                        <input type="radio" name="cpp_q3"> init()<br>
+                        <input type="radio" name="cpp_q3"> main()<br>
+                        <input type="radio" name="cpp_q3"> begin()<br>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 2 -->
+            <div class="page">
+                <div class="question">
+                    <p>18. What is the correct way to declare the main function in C++?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q5"> void main()<br>
+                        <input type="radio" name="cpp_q5"> main()<br>
+                        <input type="radio" name="cpp_q5"> int main()<br>
+                        <input type="radio" name="cpp_q5"> function main()<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>19. What is the file extension of a standard C++ source file?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q7"> .c<br>
+                        <input type="radio" name="cpp_q7"> .cpp<br>
+                        <input type="radio" name="cpp_q7"> .class<br>
+                        <input type="radio" name="cpp_q7"> .java<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>20. Write a C++ program that adds two numbers entered by the user and displays the result. What
+                        will the
+                        output be for the input 5 and 10?</p>
+                    <pre>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int num1, num2, sum;
+    cout &lt;&lt; "Enter two numbers: ";
+    cin &gt;&gt; num1 &gt;&gt; num2;
+    sum = num1 + num2;
+    cout &lt;&lt; "Sum: " &lt;&lt; sum &lt;&lt; endl;
+    return 0;
+}</pre>
+                    <div class="options">
+                        <input type="radio" name="cpp_q8"> 15<br>
+                        <input type="radio" name="cpp_q8"> 5<br>
+                        <input type="radio" name="cpp_q8"> 10<br>
+                        <input type="radio" name="cpp_q8"> Error due to missing semicolon<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>21. Which is the correct way to declare a variable in C++?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q10"> int x = 5;<br>
+                        <input type="radio" name="cpp_q10"> var x = 5;<br>
+                        <input type="radio" name="cpp_q10"> integer x = 5;<br>
+                        <input type="radio" name="cpp_q10"> x := 5;<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>22. Write a C++ program that calculates the area of a circle using a constant for pi. What will
+                        be the output
+                        for a radius of 5?</p>
+                    <pre>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    const double PI = 3.14159;
+    double radius, area;
+
+    cout &lt;&lt; "Enter the radius of the circle: ";
+    cin &gt;&gt; radius;
+
+    area = PI * radius * radius;
+
+    cout &lt;&lt; "Area of the circle: " &lt;&lt; area &lt;&lt; endl;
+
+    return 0;
+}</pre>
+                    <div class="options">
+                        <input type="radio" name="cpp_q12"> Area of the circle: 78.53975<br>
+                        <input type="radio" name="cpp_q12"> Area of the circle: 15.70795<br>
+                        <input type="radio" name="cpp_q12"> Compilation error<br>
+                        <input type="radio" name="cpp_q12"> Runtime error<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>23. What is the correct syntax for a for loop?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q13"> for(int i; i &lt; 10; i++)<br>
+                        <input type="radio" name="cpp_q13"> for i = 0 to 10<br>
+                        <input type="radio" name="cpp_q13"> loop (i = 0; i &lt; 10)<br>
+                        <input type="radio" name="cpp_q13"> foreach(i; 0 to 10)<br>
+                    </div>
+                </div>
+
+
+                <div class="question">
+                    <p>24. Write a C++ program to find the largest of three numbers. What will be the output for numbers
+                        5, 8, and
+                        2?</p>
+                    <pre>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int num1, num2, num3;
+
+    cout &lt;&lt; "Enter three numbers: ";
+    cin &gt;&gt; num1 &gt;&gt; num2 &gt;&gt; num3;
+
+    if (num1 &gt;= num2 && num1 &gt;= num3) {
+        cout &lt;&lt; num1 &lt;&lt; " is the largest number." &lt;&lt; endl;
+    } else if (num2 &gt;= num1 && num2 &gt;= num3) {
+        cout &lt;&lt; num2 &lt;&lt; " is the largest number." &lt;&lt; endl;
+    } else {
+        cout &lt;&lt; num3 &lt;&lt; " is the largest number." &lt;&lt; endl;
+    }
+
+    return 0;
+}</pre>
+                    <div class="options">
+                        <input type="radio" name="cpp_q15"> 5 is the largest number.<br>
+                        <input type="radio" name="cpp_q15"> 8 is the largest number.<br>
+                        <input type="radio" name="cpp_q15"> 2 is the largest number.<br>
+                        <input type="radio" name="cpp_q15"> Compilation error<br>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PAGE 3 -->
+            <div class="page">
+                <div class="question">
+                    <p>25. What is a function?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q17"> A statement<br>
+                        <input type="radio" name="cpp_q17"> A class<br>
+                        <input type="radio" name="cpp_q17"> A reusable block of code<br>
+                        <input type="radio" name="cpp_q17"> A data type<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>26. Which keyword is used to define a function in C++?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q18"> function<br>
+                        <input type="radio" name="cpp_q18"> def<br>
+                        <input type="radio" name="cpp_q18"> void/int/return type<br>
+                        <input type="radio" name="cpp_q18"> define<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>27. Write a C++ program to create a function that calculates the factorial of a number. What will
+                        be the
+                        output for input 5?</p>
+                    <pre>#include &lt;iostream&gt;
+using namespace std;
+
+int factorial(int num) {
+    int fact = 1;
+    for (int i = 1; i <= num; i++) {
+        fact *= i;
+    }
+    return fact;
+}
+
+int main() {
+    int num;
+    cout &lt;&lt; "Enter a number: ";
+    cin &gt;&gt; num;
+    
+    cout &lt;&lt; "Factorial of " &lt;&lt; num &lt;&lt; " is " &lt;&lt; factorial(num) &lt;&lt; endl;
+    
+    return 0;
+}</pre>
+                    <div class="options">
+                        <input type="radio" name="cpp_q19"> Factorial of 5 is 120<br>
+                        <input type="radio" name="cpp_q19"> Factorial of 5 is 60<br>
+                        <input type="radio" name="cpp_q19"> Factorial of 5 is 15<br>
+                        <input type="radio" name="cpp_q19"> Compilation error<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>28. How do you declare an array of 10 integers in C++?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q22"> int arr[10];<br>
+                        <input type="radio" name="cpp_q22"> array int[10];<br>
+                        <input type="radio" name="cpp_q22"> int arr = 10;<br>
+                        <input type="radio" name="cpp_q22"> int arr{10};<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>29. Write a C++ program that accepts five numbers from the user and stores them in an array. What
+                        will the
+                        output be for the input 1, 2, 3, 4, 5?</p>
+                    <pre>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int arr[5];
+
+    cout &lt;&lt; "Enter 5 numbers: ";
+    for (int i = 0; i &lt; 5; i++) {
+        cin &gt;&gt; arr[i];
+    }
+
+    cout &lt;&lt; "You entered: ";
+    for (int i = 0; i &lt; 5; i++) {
+        cout &lt;&lt; arr[i] &lt;&lt; " ";
+    }
+    cout &lt;&lt; endl;
+
+    return 0;
+}</pre>
+                    <div class="options">
+                        <input type="radio" name="cpp_q24"> You entered: 1 2 3 4 5<br>
+                        <input type="radio" name="cpp_q24"> You entered: 5 4 3 2 1<br>
+                        <input type="radio" name="cpp_q24"> You entered: 1 2 3 4<br>
+                        <input type="radio" name="cpp_q24"> Compilation error<br>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>30. What is Object-Oriented Programming?</p>
+                    <div class="options">
+                        <input type="radio" name="cpp_q27"> Programming using only functions<br>
+                        <input type="radio" name="cpp_q27"> Using objects and classes<br>
+                        <input type="radio" name="cpp_q27"> Writing all code in main()<br>
+                        <input type="radio" name="cpp_q27"> A type of procedural programming<br>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
